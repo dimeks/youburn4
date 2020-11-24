@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=">Our Web Video downloader is an excellent tool for those who like to watch videos on their computer / notebook or mobile devices whenever they want. You can download videos MP3 and MP$ HD from all varied topics, sports, movies, music clips, tv shows and more.">
+    <title>"Downloader Videos MP3 - MP4 from Youtube Free! - You Burn"</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <link rel="shortcut icon" href="imagens/favicon64x64.png" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="menu">
+            <nav class="navbar navbar-expand-lg">
+                <a href="" class="navbar-brand"><img src="imagens/logo.png" href="ptbr.html" id="logo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle='collapse' data-target="#nav-mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-mobile">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="ptbr.html" class="nav-link">Português</a></li>
+                        <li class="nav-item"><a href="en.html" class="nav-link">Inglês</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row" id="donate">
+            <div class="col-md-6  offset-md-3">
+                <h3> Help us keep our tool running! Soon without advertisements!</h3>
+                <img src="imagens/donate.png" alt="donate" width="200" height="200">
+            </div>
+        </div>
+        <div class="row" id="content">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="heading">Download Videos from Youtube!</h1><br>
+                <h2>Paste the Link Video from Youtube here!</h2>
+                <div class="input-group">
+                    <input class="form-control" id="URL-input" type="text" placeholder="Paste the Link Video from Youtube here!" />
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" id="sendUrl" onclick="mostra();" type="submit">Convert</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="terms-string">
+            By using our service, you accept our <a href="terms.html"> Terms of Service </a> and <a href="privacy-policy.html">
+                Privacy policy</a>
+        </div>
+        <div class="row">
+            <div class="col-md-3 offset-md-4" id="linkerro"> <p id="linkerro1">Invalid URL</p></div>
+            <div class="col-md-6 offset-md-3" id="baixar">
+                <iframe  src="" frameborder="0" id="youtube"></iframe>
+                <div class="input-group" id="baixar1">
+                    <button id="convert-button-mp4">Download MP4 720P</button>
+                </div>
+                <div class="input-group" id="baixar1">
+                    <button id="convert-button-mp3">Download MP3</button>
+                </div>      
+            </div>
+        </div>
+        <div class="row" id="content1"> 
+            <div class="col-md-6 offset-md-3" id="cont1">
+                <h2>How Download Video from Youtube?</h2>
+                <div>
+                <p class="p1">Our Web Video downloader is an excellent tool for those who like to watch videos on their computer / notebook or mobile devices whenever they want. You can download video from all varied topics, sports, movies, music clips, tv shows and more. To do this just download the videos you want using this excellent tool following the step by step.
+                </p>
+                </div>
+                <h2>Step by step</h2>
+                <div>
+                    <ol id="ol1">
+                    <li>Type the URL in the input field at the top of the page and press Enter or click the "Download" button to the right of the input field.</li>
+                    <li>Choose the video quality by clicking the button on your screen.</li>
+                    <li>Wait for the download to start automatically.</li>
+                    <li>When the Download is finished you can watch your video on your favorite player.</li>
+                    </ol>
+                </div>
+                <h3>Video quality</h3>
+                <p class="p1">The quality of the downloaded videos will be chosen at the time of download. The videos with YouBurn support in MP4 HD, MP3, AVI, WMV, FLV format</p>
+            </div>
+        </div>
+        <div class="row" id="imgdl">
+            <div class="col-md-3 offset-md-3" id="imgdl1">
+                <img src="imagens/download-2203950_640.png" alt="">
+            </div>
+            <div class="col-md-3 offset-md-0 md" id="imgdl1">
+                <img src="imagens/download-3662288_960_720.png" alt="">
+            </div>
+        </div>
+        <div class="row" id="content2">
+            <div class="col-md-12" id="footer">
+                <a href="contact.html" id="foot-links">Contact</a><br>
+                <a href="terms.html" id="foot-links">Terms of Service</a><br>
+                <a href="privacy-policy.html" id="foot-links">Privacy Policy</a><br><br>
+                <a href="en.html" id="foot-links">©YouBurn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

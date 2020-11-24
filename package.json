@@ -1,0 +1,29 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "main": "ptbr.html",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "content-disposition": "^0.5.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fbdl-core": "^1.0.2",
+    "ffmpeg": "0.0.4",
+    "file-system": "^2.2.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery": "^3.5.1",
+    "ytdl-core": "^4.0.6"
+  },
+  "permissions": {
+    "cross-domain-content": [
+      "https://youtube.com/"
+    ]
+  },
+  "devDependencies": {},
+  "description": ""
+}

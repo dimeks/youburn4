@@ -1,0 +1,237 @@
+* {
+    text-align: center;
+}
+.heading {
+    font-family: Arial;
+    margin-top: 100px;
+}
+.URL-input, .sendUrl {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.URL-input {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+    margin-top: 10px;
+}
+.URL-input:focus {
+    border:2px solid #0485ff;
+}
+#sendUrl {
+    margin-left: 5px;
+    color:white;
+    border-color: transparent;
+    background-color: #3b5998;
+    margin-top: 0;
+    outline: none;
+    box-shadow: none;
+}
+#sendUrl:hover {
+    border-color: transparent;
+    background-color: #FD4949;
+    margin-top: 0;
+    outline: none;
+    box-shadow: none;
+}
+#sendUrl:focus {
+    border-color: transparent;
+    background-color: #3b5998;
+    margin-top: 0;
+    outline: none;
+    box-shadow: none;
+}
+.form-control {
+    text-align: justify;
+    border: 2px solid #3b5998;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #3b5998;
+}
+#menu {
+    background-color: #AE0E0E;
+    height: 15%;
+    align-items: center;
+}
+#content {
+    height: auto;
+}
+#content1 {
+    height: auto;
+}
+#content2 {
+    background-color: #4169e1;
+    height: 200px;
+}
+#footer {
+    margin-top: 40px;
+}
+#foot-links {
+    color: white;
+}
+#cont1 {
+    text-align: justify;
+    margin-top: 100px;
+}
+.p1 {
+    text-align: justify;
+}
+.p2 {
+    text-align: justify;
+    margin-left: 25px;
+}
+#ol1 li {
+    text-align: justify;
+}
+#BtnTrans {
+    margin-top: 10px;
+    justify-content: right;
+}
+#imgdl {
+    height: auto;
+}
+
+#dropdownMenu2 {
+    background-color: transparent;
+    border: none;
+}
+#content-terms {
+    margin-top: 50px;
+    height: auto;
+    text-align: justify;
+}
+#h1terms {
+    text-align: justify;
+    margin-left: 25px;
+    font-size: larger;
+}
+#content-privacy {
+    text-align: justify;
+    margin-top: 50px;
+    height: auto;
+}
+#content-contact {
+    height: 500px;
+    margin-top: 30px;
+
+}
+#botao {
+    margin-top: 155px;
+    margin-left: -80px;
+}
+.form-control {
+    width: 50%;
+}
+#baixar {
+    height: auto;
+    margin-top: 50px;
+    display: none;
+}    
+#myVideo{
+        padding: 10px;
+}
+#youtube {
+    width: 200px;
+    display: block;
+    height: 200px;
+    margin: auto;
+    border: none;
+}
+#convert-button-mp4 { 
+    margin: auto;
+    color: white;
+    border-color: transparent;
+    background-color: #3b5998;
+    outline: none;
+    box-shadow: none;
+    font-size: 20px;
+}
+#convert-button-mp4:hover {
+    outline: none;
+    box-shadow: none;
+    background-color: #FD4949;
+}
+#convert-button-mp4:focus {
+    outline: none;
+    box-shadow: none;
+}
+#convert-button-mp3 { 
+    margin: auto;
+    color: white;
+    border-color: transparent;
+    background-color: #3b5998;
+    outline: none;
+    box-shadow: none;
+    font-size: 20px;
+}
+#convert-button-mp3:hover {
+    outline: none;
+    box-shadow: none;
+    background-color: #FD4949;
+}
+#convert-button-mp3:focus {
+    outline: none;
+    box-shadow: none;
+}
+#baixar1 {
+    margin-top: 20px;
+}
+#linkerro {
+    margin-top: 40px;
+    display: none;
+    border: 1px solid;
+    border-color: black;
+    height: 50px;
+}
+#linkerro1 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+.container-fluid {
+    background-color: #F5F5F5;
+}
+.navbar {
+    background-color: #4169e1;
+    width: 100%;
+}
+.nav-link {
+    color: white;
+}
+.navbar-toggler-icon {
+    background-image: url("imagens/toggler-icon.png");
+}
+#banner {
+    height: 50px;
+    margin-top: 20px;
+}
+#img-web {
+    height: 600px;
+}
+#convert-button-mp5 {
+    margin-left: 5px;
+    color:white;
+    border-color: transparent;
+    background-color: #3b5998;
+    margin-top: 0;
+    outline: none;
+    box-shadow: none;
+}
+#convert-button-mp5:hover {
+    border-color: transparent;
+    background-color: #4169e1;
+    margin-top: 0;
+    outline: none;
+    box-shadow: none;
+}
+#convert-button-mp5:focus {
+    border-color: transparent;
+    background-color: #3b5998;
+    margin-top: 0;
+    outline: none;
+    box-shadow: none;
+}
